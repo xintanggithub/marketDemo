@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DownloadAActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(开始/继续)下载" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停下载" />
+
+    <Button
+        android:id="@+id/btn_to_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="去界面B查看当前进度" />
+
+    <TextView
+        android:id="@+id/tv_download_status"
+        android:textColor="#336699"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
